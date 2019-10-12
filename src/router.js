@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
-import About from "./views/About.vue";
+import Team from "./views/Team.vue";
 import SignIn from "./views/SignInFlow/SignIn.vue";
 import Request from "./views/SignInFlow/Request.vue";
 import Recover from "./views/SignInFlow/Recover.vue";
@@ -18,9 +18,9 @@ export default new Router({
       component: Home
     },
     {
-      path: "/about",
-      name: "about",
-      component: About
+      path: "/team",
+      name: "team",
+      component: Team
     },
     {
       path: "/signIn",
@@ -39,4 +39,3 @@ export default new Router({
     }
   ]
 });
-
